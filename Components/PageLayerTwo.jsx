@@ -5,8 +5,8 @@ import {FaTwitter, FaLinkedin} from 'react-icons/fa'
 export default function PageLayerTwo() {
   return (
     <div className=' flex justify-center items-center fixed bottom-0 w-full h-screen bg-green-200  z-[-1] px-5 '>
-        <div className=' flex items-center h-[80vh] bg-white p-[100px] pt-[70px] w-[80vw] mx-auto text-black'>
-          <div className=' relative h-full flex flex-col'>
+        <div className=' flex flex-wrap items-center h-[80vh] bg-white p-[100px] pt-[70px] w-[80vw] mx-auto text-black'>
+          <div className=' relative h-full flex flex-col lg: inline'>
             <h1 className='text-2xl mb-8 font-bold'>{"I'm always up for a chat "}</h1>
             <div className='flex text-xl mb-5'>
               <Link href={'mailto:arhyeltarfa2@gmail.com'} >
